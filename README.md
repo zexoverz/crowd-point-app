@@ -44,7 +44,8 @@ Install the `node.js` globally.
    ENV VAR:
     
    DATABASE_URL="postgres://ophnjfxb:ce7E0Z1uXaMSexybqtJRX7gfIdhKOKBb@satao.db.elephantsql.com/ophnjfxb" 
-   *deployed database for this project
+   
+    *deployed database for this project
    
    
 5. Run backend app
