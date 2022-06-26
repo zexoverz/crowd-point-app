@@ -14,7 +14,7 @@ app.use(morgan("dev"));
 app.use(cors());
  
 //endpoint
-app.get("/ping", (req, res) => {  
+app.get("/", (req, res) => {  
   return res.send({
     status: "Healthy",
   });
