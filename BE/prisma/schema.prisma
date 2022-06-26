@@ -1,0 +1,20 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model Point {
+  id   String @id @default(uuid())
+  longitude Float
+  latitude Float
+  brand String
+  time DateTime @default("2020-03-19T14:21:00+02:00")
+  user_count Int
+}
