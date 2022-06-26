@@ -63,32 +63,20 @@ backend app should run on port 5000
 
 ## Frontend set up
 
-Install the `node.js` and `truffle` globally.
-
-1. Install the code on your local system
-
-   1. Fork this repository (click 'Fork' button in top right corner)
-   2. Clone the forked repository on your local file system
-
-   ```
-   $ cd /path/to/install/location
-   $ git clone https://github.com/zexoverz/crowd-point-app
-   ```
-
-2. Change directory into the local clone of the repository
+1. Change directory into frontend folder
 
    ```
    $ cd crowd-point-app
    $ cd frontend
    ```
 
-3. Install dependencies
+2. Install dependencies
 
    ```
    $ npm install
    ```
    
-4. Run frontend app
+3. Run frontend app
 
    ```
    $ npm run start
